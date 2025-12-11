@@ -7,7 +7,7 @@ document.getElementById('convert-btn').addEventListener('click', async () => {
         return;
     }
 
-    const apiKey = 'Your_elevenlabs_Api'; // مفتاح API الخاص بك
+    const apiKey = 'sk_b2511df8b4429a6c7c8e6e50c28b34dfeafbe2b7188de5e6'; // مفتاح API الخاص بك
 
     const response = await fetch('https://api.elevenlabs.io/v1/text-to-speech/' + voiceId, {
         method: 'POST',
